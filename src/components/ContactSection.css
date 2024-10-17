@@ -1,0 +1,46 @@
+/* ContactSection.css */
+.contact-container {
+     padding: 4rem 2rem;
+     background-color: #fff;
+     text-align: center;
+   }
+   
+   .contact-container h2 {
+     margin-bottom: 2rem;
+   }
+   
+   .contact-container form {
+     max-width: 600px;
+     margin: 0 auto;
+   }
+   
+   .contact-container input,
+   .contact-container textarea {
+     width: 100%;
+     padding: 1rem;
+     margin-bottom: 0.5rem;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+   }
+   
+   .error-text {
+     color: red;
+     font-size: 0.9rem;
+     margin-bottom: 1rem;
+     display: block;
+   }
+   
+   .contact-container button {
+     padding: 1rem 2rem;
+     background-color: #ff6f61;
+     border: none;
+     color: #fff;
+     font-size: 1rem;
+     cursor: pointer;
+   }
+   
+   .contact-container button:disabled {
+     background-color: #ccc;
+     cursor: not-allowed;
+   }
+   

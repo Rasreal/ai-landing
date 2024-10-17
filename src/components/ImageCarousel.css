@@ -1,0 +1,27 @@
+/* Customize navigation buttons */
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+  color: #ff6f61; /* Match your site's accent color */
+}
+
+.mySwiper .swiper-button-next::after,
+.mySwiper .swiper-button-prev::after {
+  font-size: 2rem;
+}
+
+/* Position buttons inside the carousel */
+.mySwiper .swiper-button-next {
+  right: 10px;
+}
+
+.mySwiper .swiper-button-prev {
+  left: 10px;
+}
+
+/* Hide buttons on small screens if desired */
+@media (max-width: 600px) {
+  .mySwiper .swiper-button-next,
+  .mySwiper .swiper-button-prev {
+    display: none;
+  }
+}

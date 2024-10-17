@@ -1,0 +1,32 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap');
+@import 'swiper/css';
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+body.light {
+  background-color: #fff;
+  color: #000;
+}
+
+body.dark {
+  background-color: #222;
+  color: #fff;
+}
+
+button {
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

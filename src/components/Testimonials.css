@@ -1,0 +1,82 @@
+/* Testimonials.css */
+.testimonials-container {
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+  color: #333; /* Dark text color */
+}
+
+/* Ensure all text elements inherit the color */
+.testimonials-container h2,
+.testimonials-container p,
+.testimonials-container h4 {
+  color: inherit;
+}
+
+.testimonials-container h2 {
+  margin-bottom: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+}
+
+.carousel {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.testimonial-item {
+  position: relative;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.testimonial-item p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.testimonial-item h4 {
+  font-size: 1rem;
+  color: #777;
+}
+
+@media (max-width: 768px) {
+  .testimonial-item {
+    padding: 1rem;
+  }
+
+  .testimonial-item p {
+    font-size: 1rem;
+  }
+}
+
+.carousel-controls {
+  margin-top: 1rem;
+}
+
+.carousel-controls button {
+  background-color: #ff6f61;
+  border: none;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  border-radius: 4px;
+}
+
+.carousel-controls button:hover {
+  background-color: #e65b50;
+}
